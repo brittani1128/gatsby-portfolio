@@ -1,3 +1,28 @@
-.container {
-  margin: 1em;
+body {
+  margin: 0;
+}
+
+.main {
+  position: relative;
+  z-index: 1;
+}
+
+.home-page {
+  .hero-img {
+    opacity: 0.8;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+  }
+
+  .main-text {
+    text-align: center;
+    // z-index: 1;
+    position: relative;
+    color: white;
+    margin-top: 5em;
+    font-size: 3em;
+  }
 }

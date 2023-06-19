@@ -1,11 +1,15 @@
-.navigation {
+.navigation-list {
   display: flex;
   list-style-type: none;
   gap: 1em;
   justify-content: flex-end;
   cursor: pointer;
+  z-index: 1;
+  position: relative;
+  padding: 1.5em;
 
   a {
+    color: black;
     text-decoration: none;
   }
 }
