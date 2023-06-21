@@ -1,12 +1,13 @@
 import React from "react";
 import { Navigation } from "../components";
+import PhotoGrid from "../components/PhotoGrid/PhotoGrid";
 
 const PhotographyPage = () => {
   return (
     <div className="container">
       <Navigation />
-      <main className="contact-page">
-        <div>a gallery of photos coming soon...</div>
+      <main className="photo-page">
+        <PhotoGrid />
       </main>
     </div>
   );
